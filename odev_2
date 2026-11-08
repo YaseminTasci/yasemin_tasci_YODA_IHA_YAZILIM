@@ -5,3 +5,18 @@ Git resporisity'lerini bulutta saklar.
 Github projelerde birlikte çalışmayı ve kodları, dosyaları paylaşmayı sağlar. 
 Projenin belirli aşamaları kaydedilerek istenildiği zaman geri dönüş sağlanabilir, bu aşamalara commit denir.
 Merge işlemi, alternatif olarak kullanılıp eklenme kararı verilen bir dökümanı main brach'e eklemek için kullanılabilir.
+KOMUTLAR:
+pwd: print working directory (mevcut çalışma dizisini yazdır)
+ls: list Mevcut klasörün içindeki tüm dosyaları listeler
+ls Desktop : desktoptaki dosyaları gösterirken
+ls . : şu an bulunulan klasörü ve .. bir üst klasörü gösterir.
+cd: change change directory (klasör değiştir) 
+start:  belli bir dosyayı terminal yoluyla açmak.
+clear: konsolu temizler
+touch: .docx .txt gibi eklentilerle farklı formatlarda dosya oluşturmayı sağlar.
+mkdir: make driver (klasör oluşturur) 
+touch: bir klasörün içine dosya eklemek için kullanılabilir
+örnek touch klasör/dosya.txt
+rm: remove (silmek için kullanılır) dosyalar ve klasörler silinebilirler fakat içi dolu klasörler silinmezler.
+rm -r : içi dolu klasörü siler 
+rm -rf : içinde silinemeyen bir dosya varsa zorla silmek için kullanılır.
