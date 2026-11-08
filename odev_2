@@ -1,1 +1,7 @@
-
+Git yerel olarak bilgisayarda çalışan bir versiyon kontrol sistemidir. Tüm dosyaların zamanla değişimini gösterir, 
+İştediğiniz zaman projenizin eski versiyonuna dönebilmeyi sağlar.
+Takımca yapılan projelerde özellikle kullanılır ve herkes ayrı ayrı kodlar yazdığında bunların birleştirilmesiyle ilgili git bunu kolaylaştırmaya yarar.
+Git resporisity'lerini bulutta saklar. 
+Github projelerde birlikte çalışmayı ve kodları, dosyaları paylaşmayı sağlar. 
+Projenin belirli aşamaları kaydedilerek istenildiği zaman geri dönüş sağlanabilir, bu aşamalara commit denir.
+Merge işlemi, alternatif olarak kullanılıp eklenme kararı verilen bir dökümanı main brach'e eklemek için kullanılabilir.
