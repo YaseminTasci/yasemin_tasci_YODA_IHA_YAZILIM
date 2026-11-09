@@ -20,3 +20,19 @@ touch: bir klasörün içine dosya eklemek için kullanılabilir
 rm: remove (silmek için kullanılır) dosyalar ve klasörler silinebilirler fakat içi dolu klasörler silinmezler.
 rm -r : içi dolu klasörü siler 
 rm -rf : içinde silinemeyen bir dosya varsa zorla silmek için kullanılır.
+git init : .git reposu oluşturmaya yarar.
+git status : .git reposu olup olmadığını ve varsa onun statüsünü gösterir.
+oluşturduğumuz bu git dosyası klasördeki tüm değişiklikleri takip edebilir.
+git add : çalışma dizisini stage bölgesine taşır. stage bölgesi repo ile çalışma dizisi arasındaki bir bağlantıdır.
+git commit : bunu stage bölgesinden repostiory'e geçirir.
+git commit yazılınca çalıimada seçilen editörü açacaktır, bunu hangi mesajla aktarmak istediğimiz seçilir ve kaydedilir.
+git commit ayrıca düzenlemeleri, değişiklikleri görmeyi sağlar.
+git commit -am : tüm dosyalar kaydediliyorsa ama stage bölgesine alınmamışsa bu komutla bu gerçekleştirilebilir
+git store --stage : stage içerinden çıkarılmaya yarar.
+git log : yapılan commit'lerin log'unu açar ve ne zaman oluşturulduğunu ve kim tarafından oluşturulduğunu gösterir, her commit'in kendine özel kodu var.
+git log --online : commitlerin daha sade bir şekilde görünmesini sağlar.
+
+
+
+
+
