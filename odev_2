@@ -31,8 +31,13 @@ git commit -am : tüm dosyalar kaydediliyorsa ama stage bölgesine alınmamışs
 git store --stage : stage içerinden çıkarılmaya yarar.
 git log : yapılan commit'lerin log'unu açar ve ne zaman oluşturulduğunu ve kim tarafından oluşturulduğunu gösterir, her commit'in kendine özel kodu var.
 git log --online : commitlerin daha sade bir şekilde görünmesini sağlar.
+git kraken açılıp klasörümüzü açınca commitleri ve dosyaları uygulamadan görebiliriz. Bu uygulamada terminalden yapılan çoğu şey yapılabilir: commit eklemek, logu görüntülemek.
+git commit --amend : burada commit mesajı değiştirilebilir ve stage bölgesindeki tüm değişiklikleri en son commit'e ekler.
+git rm --cached (dosya adı) : artık dosyayı takip etmez ve değişiklikleri göstermez.
+branch : belirli farklı bir yok ya da radikal değişiklik yapılmak isteniyorsan yeni bir branch ile bu denenir
+merge : denenen değişiklik beğenilirse main brach'e eklemek için kullanılır.
+git switch master : ana branch'e dönmeye yarar
+git switch : bulunulan branch değiştirilir.
 şu anda bunu görüyorsanız kusura bakmayın yazdıklarımı dün akşam kaydetmemişim şu anda ekliyorum 
-
-
 
 
