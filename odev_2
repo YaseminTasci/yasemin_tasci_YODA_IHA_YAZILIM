@@ -36,8 +36,11 @@ git commit --amend : burada commit mesajı değiştirilebilir ve stage bölgesin
 git rm --cached (dosya adı) : artık dosyayı takip etmez ve değişiklikleri göstermez.
 branch : belirli farklı bir yok ya da radikal değişiklik yapılmak isteniyorsan yeni bir branch ile bu denenir
 merge : denenen değişiklik beğenilirse main brach'e eklemek için kullanılır.
-git switch master : ana branch'e dönmeye yarar
+git switch master : ana branch'e dönmeye 
 git switch : bulunulan branch değiştirilir.
-şu anda bunu görüyorsanız kusura bakmayın yazdıklarımı dün akşam kaydetmemişim şu anda ekliyorum 
-
-
+git switch -f master : main brach'e geçiş yapar.
+git branch a : "a" adında bir branch açılır
+a branch'inin içindeyken 
+git branch -m b : yazılırsa bu branch'in adı "b" olur.
+git branch -d : branch'i siler
+HEAD kavramı: Head dosyası şu anda aktif olarak kullanılan aktif adresi gösterir.
